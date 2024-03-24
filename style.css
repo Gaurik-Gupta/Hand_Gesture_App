@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #ffa756;
+    color: white;
+}
+
+body {
+    text-align: center;
+
+}
+.heading-div{
+    text-align: center;
+    background: #0bbabd;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+    box-shadow: 6px 6px 4px #333333;
+    padding:10px;
+}
+
+h1{
+    background: #0bbabd;
+}
+
+.emoji {
+    background: #0bbabd;
+}
+
+.heading-div span{
+    font-size: 25px;
+    letter-spacing: 20px;
+    
+}
+
+.heading-div:hover{
+    scale: 1.03;
+    box-shadow: 7.5px 7.5px 5px #333333;
+}
+
+h4{
+    background: #0bbabd;
+    color: white;
+    width: 200px;
+    border-radius: 5px;
+}
+
+#camera, #result {
+    width: 350px;
+    height: 300px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    background: #0bbabd;
+    border: none;
+    outline: none;
+    padding-left: 65px;
+    padding-right: 65px;
+    box-shadow: 5px 5px 8.5px #333333;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+button:hover {
+    scale: 1.03;
+    box-shadow: 6.5px 6.5px 10px #333333;
+}
+ 
+#predict_emotion{
+    margin-left: 535px;
+}
+#capture_emotion{
+    margin-right: 30px;
+}

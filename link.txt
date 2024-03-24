@@ -1,0 +1,8 @@
+Hand Gesture Teachable Machine Link:
+
+https://teachablemachine.withgoogle.com/models/oY3PkEd9S/
+
+
+Link for backup:
+
+https://teachablemachine.withgoogle.com/models/oY3PkEd9S/
